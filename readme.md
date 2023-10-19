@@ -10,3 +10,15 @@
                     react-native ( used for mobile applications )
 
 - also have came across through the package.json file for both.
+
+# React flow and structure
+- index.html is the only file which runs after the dom manipulation completes which is called as a single page application.
+
+- index.js is the entry point to the source files.
+- react creates and virtual dom and compares with the original dom and updates only those particular elements inside dom.
+- Through javascript we an render html element - which is called as JSX. 
+- "react-scripts" palys a vital role in executing the index.html file.
+- by using fragments <>   </> all the html elements will be able to rendered, without fragments jsx only allows single html element to be rendered.
+- the first letter of a function name should be upeercase.
+- the first letter of component file name should be upeer case.
+- in vite react the compoenent file name should be .jsx naming.
